@@ -4,7 +4,7 @@ var app = express();
 var server = app.listen(8080);
 
 //host static files (unchanging files)
-app.use(express.static('public'));
+app.use(express.static('Public'));
 
 console.log("Socket serverr is running!");
 

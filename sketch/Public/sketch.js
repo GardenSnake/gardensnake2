@@ -7,7 +7,7 @@ function setup() {
   background(0);
   // Start a socket connection to the server
   // Some day we would run this server somewhere else
-  socket = io.connect('http://localhost:8080');
+  socket = io.connect();
   rValue = Math.floor(Math.random() * 256);
   gValue = Math.floor(Math.random() * 256);
   bValue = Math.floor(Math.random() * 256);
