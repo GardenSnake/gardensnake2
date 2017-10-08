@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+}
+#users{
+display:none;
+float: right;
+}
+
+#textBox{
+	display:none;
+    width: 80%;
+    height: 100%;
+}
+#nameError{
+	color: red;
+}
